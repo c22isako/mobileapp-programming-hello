@@ -1,19 +1,19 @@
 
 # Rapport
-Det första jag gjorde var att ändra app-namnet, som gjordes genom att gå in på java > res > Values > Strings.xml, genom manipulation av kodraden: 
-
+Det första jag gjorde var att ändra app-namnet, som gjordes genom att gå in på java > res > Values > Strings.xml, genom manipulation av kodraden:
+```
 <string name="app_name">Halloj Hej</string>
-
+```
 Där "Halloj Hej" tidigare var namngivet hello. Därefter skapade jag ytterligare en String, som jag sedan skrivt in "Jag tycker om stjärnor" på.
 Detta syns genom kodraden nedan.
-
+```
 <string name="Text_Insertion">Jag tycker om stjärnor</string>
-
+```
 som sedan används inom res > layout > activity_main.xml. Här utforskades de olika "vyerna", där ibland code-vyn som användes för att
-sätta in den nyskapade Stringen, genom kodraden, för att få denna synlig i appen: 
-
+sätta in den nyskapade Stringen, genom kodraden, för att få denna synlig i appen:
+```
 android:text="@string/Text_Insertion"
-
+``` 
 Detta gav mig den text som syns i screenshotten som är bifogad i projektet. 
 
 Ytterligare utforskade jag designviewn, 
