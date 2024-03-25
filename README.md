@@ -25,5 +25,8 @@ Vid commit insåg jag att imageView behövde en contentDescription, vilket jag l
 vid interaktion av TextView i design-vyn hittade jag även att man kunde ändra färg på texten, vilket även gjordes under common attributes. Ytteligare 
 ändrade jag rotationen på texten via transforms. Jag ändrade även textApperance @style/TextAppearance.AppCompat.Display1, som också gjordes via common attributes - fliken.
    
+Jag hade problem med Android Studio och github, vilket innebar att projektet pushades på mitt andra github konto. 
+Detta löstes genom att byta namn, samt mail i github desktop, men kan även innebära att tidigare pushes har fel namn på sig.
+
 ![](android.png)
 
