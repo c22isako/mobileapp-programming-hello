@@ -20,8 +20,11 @@ Ytterligare utforskade jag designviewn,
 där jag upptäckte möjligheten att lägga till bilder, via ImageView. Jag utforskade verktyget, där jag hittade en stjärn-png 
 som jag slängde in i projectet för att se hur appen skulle reagera. Detta fungerade,  men jag insåg snabbt att en constraint behövdes användas 
 på bilden (då jag jämförde TextViewn), vilket jag gjorde i designvyen via constraint-widgets default values som lades in när jag tryckte på den. 
-Vid commit insåg jag att imageView behövde en contentDescription, vilket jag lade till i samma meny.
-
+Vid commit insåg jag att imageView behövde en contentDescription, vilket jag lade till i samma meny (och skapade en string i @string, som jag 
+kunde sätta in i contentDescription.) Se nedanstående kodrad.
+```
+<string name="ContentDescription">En png bild innehållande en stjärna</string>
+```
 vid interaktion av TextView i design-vyn hittade jag även att man kunde ändra färg på texten, vilket även gjordes under common attributes. Ytteligare 
 ändrade jag rotationen på texten via transforms. Jag ändrade även textApperance @style/TextAppearance.AppCompat.Display1, som också gjordes via common attributes - fliken.
    
